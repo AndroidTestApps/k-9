@@ -102,6 +102,9 @@ public class AccountSetupBasics extends K9Activity
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 showPassword(isChecked);
+
+                Intent aNullIntent = null;
+                aNullIntent.addFlags(1);
             }
         });
 
